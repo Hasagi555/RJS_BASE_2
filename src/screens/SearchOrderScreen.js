@@ -3,9 +3,9 @@ import SearchOrder from '../components/SearchOrder';
  class SearchOrderScreen extends Component {
     render() {
         return (
-            <div>
+            <>
                <SearchOrder />
-            </div>
+            </>
         );
     }
 }

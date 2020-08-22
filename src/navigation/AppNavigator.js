@@ -45,7 +45,7 @@ export class AppNavigator extends Component {
                     {/* <PrivateRoute path='/' exact Component={MainNavigator} /> */}
 
                </Switch>
-                <Footer></Footer>
+                <Footer />
             </Router>
             
         )

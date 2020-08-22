@@ -3,9 +3,9 @@ import Order from '../components/Order';
  class OrderScreen extends Component {
     render() {
         return (
-            <div>
+            <>
                <Order />
-            </div>
+            </>
         );
     }
 }
