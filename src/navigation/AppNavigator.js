@@ -34,8 +34,8 @@ export class AppNavigator extends Component {
             <Router>
                 <Header />
                <Switch>
-                    {/* <Route path='/' exact component={HomeScreen} /> */}
-                    <Route path={ROUTER.HOME} exact component={HomeScreen} />
+                    <Route path='/' exact component={HomeScreen} />
+                    {/* <Route path={ROUTER.HOME} exact component={HomeScreen} /> */}
                     {/* <Route path='/home' exact component={HomeScreen} /> */}
                     <Route path={ROUTER.CONTACT} exact component={ContactScreen} />
                     <Route path={ROUTER.SEARCHORDER} exact component={SearchScreen} />
